@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>ScalaEditor</groupId>
+  <groupId>org.alma.gl</groupId>
   <artifactId>ScalaEditor</artifactId>
   <version>1.0</version>
   
@@ -48,7 +48,7 @@
 			<configuration>
 				<archive>
 					<manifest>
-						<mainClass>Main</mainClass>
+						<mainClass>org.alma.gl.Main</mainClass>
 						<addClasspath>true</addClasspath>
 						<classpathLayoutType>custom</classpathLayoutType>
 						<customClasspathLayout>lib/$${artifact.artifactId}-$${artifact.version}$${dashClassifier?}.$${artifact.extension}
