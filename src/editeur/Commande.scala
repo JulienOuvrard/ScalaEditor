@@ -1,0 +1,4 @@
+
+trait Commande {
+  def execute();
+}
